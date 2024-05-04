@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body .home {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* H O M E */
+/*Barra de navegacion: */
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #ff7535;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 1rem; 
+  }
+  
+.logo img {
+    max-height: 40px; 
+  }
+
+.navbar ul li{
+    display: inline;
+    margin-right:10px;
+}
+
+.navbar ul li a {
+    font-display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #ff844b;
+}
+
+
+
+/*Contenido principal del Home: */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+.principal {
+    height: 100vh !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/foto_hotel.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.titulo-principal {
+    margin-bottom: 40px;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Dancing Script';
+    color: #fff;
+}
+
+.principal p {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Bitter';
+    color: #fff;
+    padding: 0 100px;
+}
+
+.boton-home {
+    display: flex;
+}
+
+.boton-home a{
+    margin: 0 10px;
+}
+
+
+/*Seccion Habitaciones: */
+
+.titulo-hab {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hab {
+    padding: 200px;
+    background-color: #393942;
+}
+
+.hab h2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.habitaciones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.imagen-texto img {
+    height: 14rem;
+    width: 20rem;
+    margin: 1rem 1rem;
+}
+
+.imagen-texto h3 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+.imagen-texto p {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+/*OTROS: */
+
+
+.titulo {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.contenido {
+    height:  50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #ff7535;
+}
+
+.boton:hover {
+    background: #ff844b;
+}
+
+.exclusivo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/costos.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 50rem;
+}
+
+.extra {
+    background: #393942;
+    height: 30rem;
+}
+
+
+/* I N F O R M A C I O N   I N S T I T U C I O N A L */
+
+.nosotros {
+    background: #393942;
+    height: 80rem;
+}
+
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60vh !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/img-info.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.informacion h2 {
+    margin-bottom: 40px;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Dancing Script';
+    color: #fff;
+    }
+
+
+.contenedor_contacto{
+    margin: 10px;
+    padding: 10px;
+    background-color: #edc891;
+    display: flex;
+    justify-content: center;
+}
+.contacto_informacion_empresa{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #edc891;
+    display: flex;
+    justify-content:space-evenly
+}
+
+.contenedor_formulario_contacto{
+    margin: 20px;
+    padding: 20px;
+    background-color: #edc891;
+
+}
+
+.mapa{
+    margin: 10px;
+    padding: 10px;
+    background-color: #edc891;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.footer{
+    font-size: x-large;
+    background-color: #b9996d;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
