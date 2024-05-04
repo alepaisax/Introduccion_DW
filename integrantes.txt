@@ -1,5 +1,36 @@
-Integrantes:
-Gomez, Alejandra
-Van de Linde, Emilia
-Roszezuk, Maia
+UNIVERSIDAD NACIONAL DE ENTRE RÍOS
+FACULTAD DE CIENCIAS DE LA ADMINISTRACIÓN
+
+TECNICATURA UNIVERSITARIA EN DESARROLLO WEB
+
+
+Cátedra: Introducción al Desarrollo Web
+Entrega: 1° entrega
+Fecha límite: viernes 03 de mayo de 2024
+
+
+Nuestro equipo está conformado por ALEJANDRA GOMEZ, EMILIA VAN DE LINDE, MAIA ROSZEZUK y SHEILA BARRETO. Hemos llevado a cabo el siguiente proyecto de forma completamente virtual y trabajando en equipo para aprender de manera colaborativa.
+En esta primera entrega, nos enfocamos en incorporar y aplicar los conceptos básicos de HTML y CSS ya que estamos empezando y no contamos con experiencia en desarrollo, y tenemos el objetivo de ir aumentando la complejidad a medida que vayamos adquiriendo más conocimientos.
+
+
+Integrantes: 
+
+Integrante 1:
 Barreto, Sheila
+barretoshei@gmail.com
+DNI: 41228762
+
+Integrante 2:
+Gómez, Alejandra
+alitog2014@gmail.com
+DNI: 32679194
+
+Integrante 3:
+Van De Linde, Emilia
+emiliavandelinde@gmail.com
+DNI: 44846272
+
+Integrante 4:
+Roszezuk, Maia Judith
+maiaros.17@gmail.com
+DNI: 36243350
